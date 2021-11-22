@@ -13,12 +13,14 @@ body {
 header {
     background-color: #2e2828;
     display: flex;
+    flex: 0 0 auto;
 }
 
 .nav-logo {
     width: 240px;
     height: auto;
     margin: 10px;
+    align-self: center;
 }
 
 .nav {
@@ -39,4 +41,25 @@ header {
     margin-left: auto;
     margin-right: 20px;
     align-self: center;
+}
+
+/* Wave Background */
+.wavecontainer svg {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.wavecontainer {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    padding-bottom: 100%;
+    vertical-align: middle;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+.wavecontainer body {
+    overflow: hidden;
 }
