@@ -16,6 +16,18 @@
     transition: .3s;
 }
 
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+footer a:hover, footer a:focus{
+    text-decoration: underline;
+    color: #FF6363;
+    transition: .3s;
+}
+
 #section-1 {
     margin-bottom: 3rem;
     font-size: 1.3rem;
@@ -34,11 +46,14 @@
     background-color: #3F3D56;
 }
 
-#carousel {
-    padding: 3rem;
+#section-3, #section-4, #section-5, #section-6 {
+    font-size: 1.3rem;
+}
+#section-6, #sec-6-bg{
+    background-color: #2F2E41;
+    color: white;
 }
 
-#slide-1 {
-    gap: 3rem;
+footer {
+    background-color: #222;
 }
-
