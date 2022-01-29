@@ -60,7 +60,7 @@ footer {
 
 @media (max-width: 400px) {
     html {
-        font-size: .5rem;
+        font-size: .70rem;
     }
 
     .carousel-item {
