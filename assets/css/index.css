@@ -58,12 +58,26 @@ footer {
     background-color: #222;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 990px) {
     html {
-        font-size: .70rem;
+        font-size: .85rem;
+    }
+}
+
+
+@media (max-width: 410px) {
+    html {
+        font-size: .75rem;
     }
 
     .carousel-item {
-        height: 55rem;
+        height: 45rem;
+    }
+
+    #header-logo-link {
+        width: 75%;
+    }
+    #header-logo {
+        width: 100%;
     }
 }
