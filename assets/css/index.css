@@ -14,14 +14,27 @@
   transition: 0.3s;
 }
 
-footer a, #service{
+.carousel-links {
+  color: white;
+  text-decoration: none;
+}
+
+.carousel-links:hover,
+.carousel-links:active {
+  text-decoration: none;
+  color: #ff6363;
+  transition: .3s;
+}
+
+footer a, #service {
   color: white;
   text-decoration: underline;
 }
 
 footer a:hover,
 footer a:focus,
-#service:hover{
+#service:hover,
+#service:focus {
   text-decoration: underline;
   color: #ff6363;
   transition: 0.3s;
@@ -43,11 +56,6 @@ footer a:focus,
   text-align: center;
   color: white;
   background-color: #3f3d56;
-}
-
-#section-2 a {
-  color: white;
-  text-decoration: none;
 }
 
 #section-3,

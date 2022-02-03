@@ -6,12 +6,12 @@ window.addEventListener("DOMContentLoaded", function () {
     function success() {
         form.reset();
         status.classList.add('success');
-        status.innerHTML = "Success!";
+        status.innerHTML = "Success! Expect to here from us soon.";
     }
 
     function error() {
         status.classList.add('error');
-        status.innerHTML = "Failed to send";
+        status.innerHTML = "Failed to send, try again later.";
     }
 
     form.addEventListener("submit", function (ev) {

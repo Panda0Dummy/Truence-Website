@@ -9,7 +9,9 @@
 
   
   #header-nav ul a:hover,
-  #header-nav ul a:focus {
+  #header-nav ul a:focus,
+  a:hover,
+  a:focus {
     text-decoration: underline;
     color: #ff6363;
     transition: 0.3s;
@@ -24,24 +26,20 @@
 #status {
   padding: .3rem;
   margin: auto;
-  width: 25%;
+  width: 30%;
   margin-top: 5rem;
 }
 
 #status.success {
-  border: .2rem solid;
+  border: .1rem solid;
   border-radius: 10px;
-  background-color: #27421e;
-  border-color: #3bd63b;
-  animation: status 4s ease forwards;
+  animation: status 6s ease forwards;
 }
 
 #status.error {
-  border: .2rem solid;
+  border: .1rem solid;
   border-radius: 10px;
-  background-color: #691313;
-  border-color: #d34e4e;
-  animation: status 4s ease forwards;
+  animation: status 6s ease forwards;
 }
 
 @keyframes status {
@@ -63,6 +61,12 @@
   footer a {
     color: white;
     text-decoration: underline;
+  }
+
+  p a {
+    color: rgb(122, 122, 122);
+    text-decoration: underline;
+    transition: 0.3s;
   }
   
   footer a:hover,
