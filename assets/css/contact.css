@@ -1,0 +1,122 @@
+* {
+    font-family: "Jura", sans-serif;
+  }
+  
+  .underline {
+    text-decoration: none;
+    border-bottom: 4px solid #ff6363;
+  }
+
+  
+  #header-nav ul a:hover,
+  #header-nav ul a:focus {
+    text-decoration: underline;
+    color: #ff6363;
+    transition: 0.3s;
+  }
+
+#form-style {
+  background-color: #525074;
+  border-radius: 10px;
+  color: white;
+}
+
+#status {
+  padding: .3rem;
+  margin: auto;
+  width: 25%;
+  margin-top: 5rem;
+}
+
+#status.success {
+  border: .2rem solid;
+  border-radius: 10px;
+  background-color: #27421e;
+  border-color: #3bd63b;
+  animation: status 4s ease forwards;
+}
+
+#status.error {
+  border: .2rem solid;
+  border-radius: 10px;
+  background-color: #691313;
+  border-color: #d34e4e;
+  animation: status 4s ease forwards;
+}
+
+@keyframes status {
+  0%{
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+  
+  footer a {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  footer a:hover,
+  footer a:focus {
+    text-decoration: underline;
+    color: #ff6363;
+    transition: 0.3s;
+  }
+
+  footer {
+    background-color: #222;
+    margin-top: 100rem;
+  }
+
+@media (max-width: 750px) {
+    html {
+        font-size: .8rem;
+    }
+}
+
+
+
+  @media (max-width: 570px) {
+    html {
+      font-size: 0.65rem;
+      }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    .carousel-item {
+      height: 30rem;
+  }
+
+  
+    #header-logo-link {
+      width: 75%;
+    }
+    #header-logo {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 290px) {
+      html {
+          font-size: .5rem;
+      }
+
+      .carousel-item {
+        height: 40rem;
+    }
+
+      footer img {
+          width: 100%;
+      }
+  }

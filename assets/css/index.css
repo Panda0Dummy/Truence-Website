@@ -14,14 +14,14 @@
   transition: 0.3s;
 }
 
-footer a, #section-2 a {
+footer a, #service{
   color: white;
   text-decoration: underline;
 }
 
 footer a:hover,
 footer a:focus,
-#section-2 a:hover {
+#service:hover{
   text-decoration: underline;
   color: #ff6363;
   transition: 0.3s;
@@ -45,6 +45,10 @@ footer a:focus,
   background-color: #3f3d56;
 }
 
+#section-2 a {
+  color: white;
+  text-decoration: none;
+}
 
 #section-3,
 #section-4,
