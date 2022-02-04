@@ -6,7 +6,7 @@ window.addEventListener("DOMContentLoaded", function () {
     function success() {
         form.reset();
         status.classList.add('success');
-        status.innerHTML = "Success! Expect to here from us soon.";
+        status.innerHTML = "Success! Expect to hear from us soon.";
     }
 
     function error() {
